@@ -16,10 +16,13 @@ body
 .cim{
     text-decoration: none;
     text-align: start;
+    font-size: 27px;
+    padding: 0;
+    padding-left: 10px;
 }
 .gomb>button{
     padding: 15px;
-    width: 15%;
+    width: 33vh;
     background-color:#0f1014 ;
     color: #fcfcfe;
     border: 1px solid #a1a0a3;
@@ -54,8 +57,8 @@ footer{
     grid-template-columns: repeat(3, auto);
     width: 100%;
     gap: 50px;
-    padding-right: 10px;
     padding-bottom: 0px;
+    padding-right: 20px;
 }
 img{
     width: 100%;
@@ -85,6 +88,7 @@ h2{
 p{
     text-align: center;
     padding: 10px;
+    margin-bottom: 22px;
 }
 .linkek>ul{
     grid-area: n;
@@ -101,21 +105,22 @@ p{
     padding: 5px;
     width: 100%;
     border-radius: 12px;
+    text-align: center;
 }
 .linkek>ul>li>a{
     color: #a1a0a3;
-    text-decoration: none;
     text-align: center;
-    font-size: 20px;
+    font-size: 3vh;
     text-decoration: overline;
    
 }
     
 .linkek>ul>li>a:hover{
     text-decoration: none;
+    color: #fcfcfe;
 }
 .menü>ul>li>a:hover{
-    font-size:19px;
+    color: #fcfcfe;
 }
 @media screen and (max-width: 400px)
 {
