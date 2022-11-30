@@ -122,7 +122,19 @@ p{
 .menü>ul>li>a:hover{
     color: #fcfcfe;
 }
+.menü>ul>li>a:hover{
+    font-size: 15px;
+    transition: 0.5s;
+}
 @media screen and (max-width: 400px)
+{
+    .menü>ul{
+        grid-template-columns: repeat(3, auto);
+        width: 100%;
+        gap: 20px;
+    }
+}
+@media screen and (max-width: 550px)
 {
     main
     {
@@ -131,4 +143,23 @@ p{
     "a a"
     "f f";
     }
+    nav{
+        width: 100%;
+        margin: auto;
+    }
+    .menü>ul{
+        padding-left: 67px;
+        }
+    .menü>ul>li{
+            text-align: center;
+            background-color: #8080801a;
+        }
+        .menü>ul>li>a:hover{
+            font-size: 15px;
+            transition: 0.5s;
+        }
+        .linkek>ul>li>a{
+            font-size: 2.2vh;
+        }
+       
 }
